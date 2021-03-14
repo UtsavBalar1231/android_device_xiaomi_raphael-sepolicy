@@ -8,10 +8,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/nxp
 
-# Lineage Sepolicy
-BOARD_SEPOLICY_DIRS += \
-    device/xiaomi/raphael-sepolicy/vendor/lineage
-
 # Qcom Sepolicy
 BOARD_SEPOLICY_DIRS += \
 	device/xiaomi/raphael-sepolicy/vendor/qcom
