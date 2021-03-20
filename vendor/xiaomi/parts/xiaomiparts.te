@@ -26,6 +26,8 @@ allow xiaomiparts system_app_data_file:{
 # Allow binder communication with gpuservice/hal_motor
 binder_call(xiaomiparts, gpuservice)
 binder_call(xiaomiparts, hal_motor)
+binder_call(xiaomiparts, vendor_hal_perf_default)
+allow xiaomiparts vendor_hal_perf_hwservice:hwservice_manager find;
 
 # Allow xiaomiparts to read and write to cgroup/vendor_sysfs_graphics/sysfs_leds
 r_dir_file(xiaomiparts, sysfs_leds)
